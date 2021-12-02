@@ -3,18 +3,21 @@
     <button class="val">{{ val || 0 }}</button>
     <button class="btn , clr" @click="clear">C</button>
     <button class="btn , sign" @click="divide">/</button>
-    <button class="btn" @click="append('9')">9</button>
-    <button class="btn" @click="append('8')">8</button>
     <button class="btn" @click="append('7')">7</button>
+    <button class="btn" @click="append('8')">8</button>
+    <button class="btn" @click="append('9')">9</button>
+
     <button class="btn , sign" @click="multiply">X</button>
-    <button class="btn" @click="append('6')">6</button>
-    <button class="btn" @click="append('5')">5</button>
     <button class="btn" @click="append('4')">4</button>
+    <button class="btn" @click="append('5')">5</button>
+    <button class="btn" @click="append('6')">6</button>
     <button class="btn , sign" @click="minus">-</button>
-    <button class="btn" @click="append('3')">3</button>
-    <button class="btn" @click="append('2')">2</button>
+    
     <button class="btn" @click="append('1')">1</button>
+    <button class="btn" @click="append('2')">2</button>
+    <button class="btn" @click="append('3')">3</button>
     <button class="btn , sign" @click="plus">+</button>
+    
     <button class="btn" @click="append('0')">0</button>
     <button class="btn" @click="dot()">.</button>
     <button class="btn, equal , sign" @click="equalTo">=</button>
